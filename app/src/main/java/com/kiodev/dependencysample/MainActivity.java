@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.kiodev.mylibrary.Pokemon;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
