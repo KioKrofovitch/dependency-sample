@@ -1,0 +1,3 @@
+[submodule "dependency-sample-library"]
+	path = dependency-sample-library
+	url = git@github.com:KioKrofovitch/dependency-sample-library.git
