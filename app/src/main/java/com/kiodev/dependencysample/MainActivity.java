@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Test library
         ArrayList<Pokemon> pokemonArrayList = new ArrayList<>();
+
+        Pokemon pikachu = new Pokemon("Pikachu", "Electric");
+        pikachu.setNumber(25);
+
+        pokemonArrayList.add(pikachu);
     }
 
     @Override
