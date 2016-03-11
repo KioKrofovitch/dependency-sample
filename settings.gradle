@@ -1,1 +1,4 @@
 include ':app'
+include ':mylibrary'
+
+project(':mylibrary').projectDir = new File('../dependency-sample-library/mylibrary')
