@@ -1,1 +1,7 @@
 include ':app'
+
+if(useLocalSource == '1') {
+    println 'Include local source code directory'
+    include ':mylibrary'
+    project(':mylibrary').projectDir = new File('../dependency-sample-library/mylibrary')
+}
